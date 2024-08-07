@@ -22,11 +22,10 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
- 		 <groupId>org.apache.maven.plugins</groupId>
-  			<artifactId>maven-war-plugin</artifactId>
-  			<version>3.2.3</version>
-  			<type>maven-plugin</type>
-		</dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.3.1</version>
+</dependency>
         <!-- https://mvnrepository.com/artifact/javax.servlet/jsp-api -->
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -40,8 +39,7 @@
     <artifactId>sonar-maven-plugin</artifactId>
     <version>3.9.0.2155</version>
 </dependency>
-
-  </dependencies>
+</dependencies>
   <build>
     <finalName>PetStoreWebApp</finalName>
      <plugins>
